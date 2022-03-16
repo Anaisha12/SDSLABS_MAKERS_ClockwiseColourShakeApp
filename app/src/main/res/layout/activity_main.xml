@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/olivegreen"
+
+    tools:context=".MainActivity"
+    >
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="200dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="449dp"
+        android:drawableTop="@drawable/ic_baseline_color_lens_24"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="392dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="317dp"
+        android:fontFamily="sans-serif"
+        android:text="Colour Shaker"
+        android:textAlignment="center"
+        android:textColor="@color/berryred"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="463dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="casual"
+        android:text="Shake your mobile to rotate the colours"
+        android:textAlignment="center"
+        android:textColor="@color/berryred"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:paddingHorizontal="@dimen/cardview_default_elevation"/>
+</RelativeLayout>
