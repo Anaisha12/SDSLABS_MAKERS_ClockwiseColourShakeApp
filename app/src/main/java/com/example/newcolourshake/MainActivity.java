@@ -31,17 +31,16 @@ public class MainActivity extends AppCompatActivity {
         te1 = findViewById(R.id.t1);
         te2 = findViewById(R.id.t2);
         te3 = findViewById(R.id.t3);
-        Animation t,b,c;
+        Animation t,b;
         relativeLayout = findViewById(R.id.rl);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
 
         t= AnimationUtils.loadAnimation(getApplication(),R.anim.logianim);
         b=AnimationUtils.loadAnimation(getApplication(),R.anim.txtanim1);
-        c=AnimationUtils.loadAnimation(getApplication(),R.anim.txtanim2);
         te1.setAnimation(t);
         te2.setAnimation(b);
-        te3.setAnimation(c);
+        te3.setAnimation(b);
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
